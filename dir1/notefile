@@ -1,0 +1,5 @@
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git add .
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git reset .
+Unstaged changes after reset:
+M	foo
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# 
