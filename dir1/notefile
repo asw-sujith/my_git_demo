@@ -2,4 +2,15 @@ root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git add .
 root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git reset .
 Unstaged changes after reset:
 M	foo
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo#
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# echo -n “Line in file1” >> newfile
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git add .
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git commit -m "Added line in newfile"
+[master bd6808e] Added line in newfile
+ 3 files changed, 7 insertions(+)
+ create mode 100644 newfile
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# echo -n "Line in File2" >> newfile
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# vi newfile 
+root@ip-10-0-1-131:/home/ubuntu/my_git_demo# git checkout newfile
 root@ip-10-0-1-131:/home/ubuntu/my_git_demo# 
+ 
